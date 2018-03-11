@@ -16,6 +16,10 @@ def collatz(number):
             print(number)
 
 print('Hello mate! Please type any number:\n')
-number = int(input())
+try:
+    number = int(input())
+except ValueError:
+    print("Hey mate! You didn't type a real number. Try it again!")
+    number = int(input())
 
 collatz(number)
