@@ -1,7 +1,7 @@
 """
 Crie uma função que aceite um valor de lista como argumento e retorne uma string
 com todos os itens separados por uma vírgula e um espaço, com 'e' inserido
-antesdo último ítem.
+antes do último ítem.
 
 """
 
