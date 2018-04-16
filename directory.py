@@ -45,5 +45,6 @@ print('-------------------')
 os.chdir('/home/serrones/universe/flask_introduction')
 print('-------------------')
 print('Creating a text file that lists all of the processes: ')
-with open('system_log', 'w') as f:
+with open('system_log', 'r+') as f:
     f.write("System almost complete! We need capture the system logs")
+    [print(line, end='') for line in f]
